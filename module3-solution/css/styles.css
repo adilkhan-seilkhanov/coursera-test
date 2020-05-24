@@ -1,0 +1,106 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: burlywood;
+    font-family: "Bradley Hand"
+}
+
+/** HEADER **/
+header {
+    margin-bottom: 50px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#header-nav .container-fluid{
+    background-color: #31708f;
+}
+
+.navbar-brand a {
+    color: white;
+    font-size: 1.5em;
+    font-family: "Bradley Hand";
+}
+
+#nav-list {
+    margin-top: 10px;
+    background-color: silver;
+    font-size: 1.3em;
+    color: white;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+
+#nav-list li {
+    border-bottom: 1px solid #8c8c8c;
+}
+
+#nav-list li a {
+    font-family: "Bradley Hand";
+    color: white;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid whitesmoke;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -40px;
+}
+/* END HEADER */
+
+/* MAIN PAGE */
+#main-content .row {
+    background-color: whitesmoke;
+    height: 1000px;
+    box-shadow: 0 0 35px black;
+}
+
+#chicken, #beef, #sushi  {
+    background-color: whitesmoke;
+    box-shadow: 0 0 35px black;
+    height: 700px;
+    position: relative;
+    margin: 10px auto 25px;
+    overflow: hidden;
+}
+
+#chicken a, #beef a, #sushi a {
+    position: absolute;
+    width: 100px;
+    bottom: 5px;
+    left: 10px;
+    background-color: #1b6d85;
+    text-align: center;
+    color: whitesmoke;
+}
+
+h3, #content .row p {
+    font-family: "Bradley Hand";
+    color: black;
+}
+
+#content .row p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+@media (max-width: 768px) {
+    #main-content .row {
+        margin: 15px 25px 15px 25px;
+    }
+
+    #chicken, #beef, #sushi {
+        margin-top: 0;
+    }
+
+    #content .row {
+        margin: 15px 25px 15px 25px;
+    }
+}
